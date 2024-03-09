@@ -15,7 +15,6 @@
     "@astrojs/tailwind": "^5.1.0",
     "@fontsource/inter": "^4.5.15",
     "astro": "^4.4.15",
-    "astro-purgecss": "^4.1.0",
     "framer-motion": "^10.11.2",
     "npm-check-updates": "^16.10.7",
     "purgecss": "^5.0.0",

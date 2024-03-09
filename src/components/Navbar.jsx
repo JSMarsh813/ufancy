@@ -70,8 +70,8 @@ export const Navbar = () => {
           className="lg:hidden flex flex-col  px-2 py-3 border-solid border border-gold rounded-md cursor-pointer hover:bg-pink-400 hover:text-black "
           onClick={() => setIsOpen(!isOpen)}
         >
-          <div className="w-5 h-0.5 bg-gold  mb-1"></div>
-          <div className="w-5 h-0.5 bg-gold  mb-1"></div>
+          <div className="w-5 h-0.5 bg-gold mb-1"></div>
+          <div className="w-5 h-0.5 bg-gold mb-1"></div>
           <div className="w-5 h-0.5 bg-gold "></div>
         </div>
       </div>
