@@ -4,18 +4,21 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        customPrimary: "rgb(99, 102, 241)",
+        customPrimary: "rgb(217, 1, 102)", //logoicon color, some buttons, pink
         customSecondary: "rgb(161, 163, 247)",
-        customDarkBg1: "rgb(31, 32, 35)",
-        customDarkBg2: "rgb(38, 39, 43)",
-        customDarkBg3: "rgb(48, 49, 54)",
-        customDarkBg3Hover: "rgb(55, 56, 62)",
+        gold: "rgb(255, 215, 0)",
+        customDarkBg1: "rgb(255,255,255)",
+        customDarkBg2: "rgb(217, 1, 102)", //background pink
+        customDarkBg3: "rgb(255,255,255)",
+        customAccent: "rgb(211,181,	101)",
+        customDarkBg3Hover: "rgb(222,205,160)",
         customContentSubtitle: "rgb(178, 184, 205)",
         customGrayBorder: "rgb(255,255,255,0.1)",
         customGrayText: "rgb(174, 178, 183)",
-        customDarkBgTransparent: "rgb(31, 32, 35, 0.7)",
+        customDarkBgTransparent: "rgb(217, 0, 88, 0.8)", //navbar background
+
         customDarkBgTransparentDarker: "rgb(0,0,0,0.5)",
-        customDarkBgTransparentLighter: "rgb(48, 49, 54, 0.7)"  
+        customDarkBgTransparentLighter: "rgb(48, 49, 54, 0.7)",
       },
       fontFamily: {
         Inter: "Inter",
@@ -32,4 +35,3 @@ module.exports = {
     },
   },
 };
-

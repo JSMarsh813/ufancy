@@ -1,0 +1,21 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+import { Navbar } from "../components/Navbar.jsx";
+import { FAQ } from "../components/FAQ.jsx";
+
+import { Divider } from "../components/Divider";
+import { Footer } from "../components/Footer.jsx";
+import { ScrollUpButton } from "../components/ScrollUpButton";
+import "../styles/Theme.css";
+import "../styles/Diagonals.css";
+import { CurrentServices } from "../components/not-main-page/CurrentServices";
+---
+
+<Layout title="U Fancy Services">
+  <Navbar client:load />
+
+  <CurrentServices />
+  <ScrollUpButton client:load />
+  <Footer />
+</Layout>
