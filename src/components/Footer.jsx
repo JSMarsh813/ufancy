@@ -5,14 +5,22 @@ import { YelpIcon } from "../assets/icons/YelpIcon";
 const footerData = [
   {
     title: "Products",
-    items: ["Services", "About Us", "Pricing", "Contact", "FAQ"],
+    items: [
+      ["Home", "/#home/"],
+      ["About Us", "/#aboutus/"],
+      ["Services", "/services/"],
+      ["Testimonials", "/#Testimonials"],
+      ["Pricing", "/#pricing/"],
+      ["FAQ", "/#FAQ/"],
+      ["Contact", "/contact"],
+    ],
   },
 ];
 
 export const Footer = () => {
   return (
     <footer>
-      <div className="pt-10  lg:pt-20 lg:pb-12 bg-customDarkBg1 radius-for-skewed ">
+      <div className="pt-10  lg:pt-20 bg-customDarkBg1  ">
         <div className="container mx-auto px-4 w-4/5 md:w-11/12 lg:w-10/12 xl:w-4/5 2xl:w-2/3">
           <div className="flex flex-wrap">
             <div className="w-36  mb-16 lg:mb-0">
@@ -44,7 +52,6 @@ export const Footer = () => {
             </div>
             <div className="w-full lg:w-2/3  lg:pl-16 hidden lg:flex flex-wrap justify-between">
               <div className="w-full md:w-1/3 lg:w-auto mb-16 md:mb-0">
-                <h3 className="mb-6 text-2xl font-bold text-black">Site Map</h3>
                 <ul>
                   {footerData[0].items.map((item, i) => (
                     <li
@@ -53,10 +60,10 @@ export const Footer = () => {
                     >
                       <a
                         className="text-customPrimary hover:text-black"
-                        href="#"
-                        aria-label={`${item}`}
+                        href={`${item[1]}`}
+                        aria-label={`${item[0]}`}
                       >
-                        {item}
+                        {item[0]}
                       </a>
                     </li>
                   ))}
@@ -64,8 +71,8 @@ export const Footer = () => {
               </div>
             </div>
           </div>
-          <p className="lg:text-center text-sm text-black border-t border-[rgb(255,255,255,0.2)] pt-12 mt-16 hidden lg:block">
-            &copy; 2024. MIT license.
+          <p className="lg:text-center text-sm text-black border-t border-[rgb(255,255,255,0.2)] pb-8 hidden lg:block">
+            &copy; 2024 U Fancy
           </p>
         </div>
       </div>

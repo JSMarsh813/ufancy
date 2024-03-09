@@ -59,32 +59,41 @@ export const Pricing = () => {
                 <p className="mb-6 text-black">All our plans include:</p>
                 <ul className="text-black">
                   <li className="mb-4 flex">
-                    <CheckArrowIcon /> <span> Unlimited Photo Sessions</span>
+                    <CheckArrowIcon />
+                    <span className="text-left">Unlimited Photo Sessions</span>
                   </li>
+
                   <li className="mb-4 flex">
                     <CheckArrowIcon />
-                    <span>
+                    <span className="text-left">
                       Fun Props included: Signs, Glasses, Mustaches etc.
                     </span>
                   </li>
+
                   <li className="mb-4 flex">
                     <CheckArrowIcon />
-                    <span> Friendly Photo Booth Attendant </span>
-                  </li>
-                  <li className="mb-4 flex">
-                    <CheckArrowIcon />{" "}
-                    <span>
+                    <span className="text-left">
                       {" "}
+                      Friendly Photo Booth Attendant{" "}
+                    </span>
+                  </li>
+
+                  <li className="mb-4 flex">
+                    <CheckArrowIcon />
+                    <span className="text-left">
                       Printing on site: Each person in the photo booth gets a
                       print
                     </span>
                   </li>
 
                   <li className="mb-4 flex">
-                    <CheckArrowIcon /> <span> Free Setup & Tear Down</span>
+                    <CheckArrowIcon />
+                    <span className="text-left">Free Setup & Tear Down</span>
                   </li>
+
                   <li className="mb-4 flex">
-                    <CheckArrowIcon /> <span> *Travel fees may apply*</span>
+                    <CheckArrowIcon />
+                    <span className="text-left"> *Travel fees may apply*</span>
                   </li>
                 </ul>
               </div>
