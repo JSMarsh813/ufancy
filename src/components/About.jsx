@@ -62,6 +62,7 @@ export const About = () => {
             <div className="mb-8 lg:mb-0 w-full sm:w-1/2 px-2 lg:px-0">
               <div className="mb-4 py-3 pl-3 pr-2 rounded">
                 <img
+                  loading="lazy"
                   src={feature1}
                   alt="f1"
                   className="rounded-xl  custom-border-gray mx-auto sm:mx-unset"
@@ -70,6 +71,7 @@ export const About = () => {
               <div className="py-3 pl-3 pr-2 rounded ">
                 <img
                   src={feature2}
+                  loading="lazy"
                   alt="f2"
                   className="rounded-xl  custom-border-gray mx-auto sm:mx-unset"
                 />
@@ -78,6 +80,7 @@ export const About = () => {
             <div className="w-1/2 lg:mt-20  pt-12 lg:pt-0 px-2 hidden sm:inline-block">
               <div className="mb-4 py-3 pl-3 pr-2 rounded-lg ">
                 <img
+                  loading="lazy"
                   src={feature3}
                   alt="f3"
                   className="rounded-xl  custom-border-gray"
@@ -85,6 +88,7 @@ export const About = () => {
               </div>
               <div className="py-3 pl-3 pr-2 rounded-lg ">
                 <img
+                  loading="lazy"
                   src={feature4}
                   alt="f4"
                   className="rounded-xl  custom-border-gray"

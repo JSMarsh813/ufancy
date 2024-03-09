@@ -66,6 +66,7 @@ export const Hero = () => {
             <img
               src={dashboard}
               alt="123"
+              loading="eager"
               className="lg:max-w-[600px] sm:max-w-[400px] max-w-[300px] mx-auto absolute z-10 rounded-xl custom-border-gray hero-dashboard-border-gradient lg:top-6 xl:top-0"
             />
           </div>
