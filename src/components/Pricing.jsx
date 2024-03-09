@@ -91,9 +91,9 @@ export const Pricing = () => {
               <div className="flex flex-wrap flex-col lg:flex-row -mx-4 items-center mt-20">
                 <section className="w-[350px] sm:w-[380px] lg:w-1/3 px-4 mb-8 lg:mb-0">
                   <div className="p-8 bg-customDarkBg2 rounded-3xl">
-                    <h4 className="mb-2 text-xl font-bold font-heading text-gold">
+                    <h3 className="mb-2 text-xl font-bold font-heading text-gold">
                       2 hours
-                    </h4>
+                    </h3>
                     <div className="flex justify-start items-end">
                       <div className="text-4xl sm:text-5xl font-bold text-white mt-4 mr-2">
                         $275
@@ -104,9 +104,9 @@ export const Pricing = () => {
 
                 <section className="w-[350px] sm:w-[380px] lg:w-1/3 px-4 mb-8 lg:mb-0">
                   <div className="p-8 bg-customDarkBg2  rounded-3xl">
-                    <h4 className="mb-2 text-xl font-bold font-heading  text-gold">
+                    <h3 className="mb-2 text-xl font-bold font-heading  text-gold">
                       3 hours
-                    </h4>
+                    </h3>
                     <div className="flex justify-start items-end">
                       <div className="text-4xl sm:text-5xl font-bold text-white mt-4 mr-2">
                         $325
