@@ -64,7 +64,7 @@ export const Footer = () => {
               </div>
             </div>
           </div>
-          <p className="lg:text-center text-sm text-gray-400 border-t border-[rgb(255,255,255,0.2)] pt-12 mt-16 hidden lg:block">
+          <p className="lg:text-center text-sm text-black border-t border-[rgb(255,255,255,0.2)] pt-12 mt-16 hidden lg:block">
             &copy; 2024. MIT license.
           </p>
         </div>
