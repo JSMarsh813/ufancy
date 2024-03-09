@@ -15,8 +15,7 @@ module.exports = {
         customContentSubtitle: "rgb(178, 184, 205)",
         customGrayBorder: "rgb(255,255,255,0.1)",
         customGrayText: "rgb(174, 178, 183)",
-        customDarkBgTransparent: "rgb(217, 0, 88, 0.8)", //navbar background
-
+        customDarkBgTransparent: "rgb(195, 0, 79, 0.85)", //navbar background
         customDarkBgTransparentDarker: "rgb(0,0,0,0.5)",
         customDarkBgTransparentLighter: "rgb(48, 49, 54, 0.7)",
       },
