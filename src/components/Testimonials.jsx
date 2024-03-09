@@ -66,12 +66,10 @@ export const Testimonials = () => (
                   width="45px"
                 />
                 <div className="flex flex-col ml-4">
-                  <div className="custom-content-text-white font-medium">
+                  <div className="text-customPrimary text-lg font-semibold">
                     {testimonial.customerName}
                   </div>
-                  <div className="custom-content-text-gray">
-                    {testimonial.customerTitle}
-                  </div>
+                  <div className="text-black">{testimonial.customerTitle}</div>
                 </div>
               </div>
             </div>
