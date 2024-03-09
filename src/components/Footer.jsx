@@ -18,9 +18,9 @@ export const Footer = () => {
             <div className="w-full lg:w-1/3 mb-16 lg:mb-0">
               <div className="flex justify-center lg:justify-start items-center grow basis-0">
                 <div className="text-white mr-2 text-6xl">
-                  <TailcastLogo />
+                  <TailcastLogo fill="rgb(217, 1, 102)" />
                 </div>
-                <div className="text-customAccent font-['Inter'] font-bold text-xl">
+                <div className="text-customPrimary font-['Inter'] font-bold text-xl">
                   U Fancy
                 </div>
               </div>
@@ -29,11 +29,13 @@ export const Footer = () => {
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
                   href="#"
+                  aria-label="Twitter Link"
                 >
                   <TwitterIcon />
                 </a>
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
+                  aria-label="Instagram Link"
                   href="#"
                 >
                   <InstagramIcon />
@@ -50,9 +52,9 @@ export const Footer = () => {
                       className="mb-4"
                     >
                       <a
-                        className="text-gray-400 hover:text-gray-300"
+                        className="text-customPrimary hover:text-black"
                         href="#"
-                        aria-label=""
+                        aria-label={`${item}`}
                       >
                         {item}
                       </a>

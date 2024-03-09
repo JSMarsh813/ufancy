@@ -32,7 +32,7 @@ export const Navbar = () => {
           >
             <div className="flex justify-start items-center grow basis-0">
               <div className="text-white mr-2 text-6xl">
-                <TailcastLogo />
+                <TailcastLogo fill="rgb(255, 215, 0)" />
               </div>
               <div className="text-white font-['Inter'] font-bold text-xl">
                 U Fancy
