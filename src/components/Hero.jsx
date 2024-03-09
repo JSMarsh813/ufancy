@@ -1,9 +1,12 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 
-import dashboard from "../assets/images/dashboard.webp";
+import dashboard from "/src/assets/images/dashboard.webp";
 
 export const Hero = () => {
+  {
+    console.log(dashboard);
+  }
   return (
     <section
       className="w-screen  flex justify-center items-center bg-customDarkBg1 mb-[28vw] md:mb-[18vw] lg:mb-[10vw] xl:mb-[13vw] 2xl:mb-60 hero-bg-gradient pb-24 sm:pb-32 md:pb-44 lg:pb-0"
@@ -64,7 +67,7 @@ export const Hero = () => {
         >
           <div className="relative w-screen flex justify-center ">
             <img
-              src={dashboard}
+              src={dashboard.src}
               alt="123"
               loading="eager"
               className="lg:max-w-[600px] sm:max-w-[400px] max-w-[300px] mx-auto absolute z-10 rounded-xl custom-border-gray hero-dashboard-border-gradient lg:top-6 xl:top-0"

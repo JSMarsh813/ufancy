@@ -63,14 +63,14 @@ export const About = () => {
               <div className="mb-4 py-3 pl-3 pr-2 rounded">
                 <img
                   loading="lazy"
-                  src={feature1}
+                  src={feature1.src}
                   alt="f1"
                   className="rounded-xl  custom-border-gray mx-auto sm:mx-unset"
                 />
               </div>
               <div className="py-3 pl-3 pr-2 rounded ">
                 <img
-                  src={feature2}
+                  src={feature2.src}
                   loading="lazy"
                   alt="f2"
                   className="rounded-xl  custom-border-gray mx-auto sm:mx-unset"
@@ -81,7 +81,7 @@ export const About = () => {
               <div className="mb-4 py-3 pl-3 pr-2 rounded-lg ">
                 <img
                   loading="lazy"
-                  src={feature3}
+                  src={feature3.src}
                   alt="f3"
                   className="rounded-xl  custom-border-gray"
                 />
@@ -89,7 +89,7 @@ export const About = () => {
               <div className="py-3 pl-3 pr-2 rounded-lg ">
                 <img
                   loading="lazy"
-                  src={feature4}
+                  src={feature4.src}
                   alt="f4"
                   className="rounded-xl  custom-border-gray"
                 />
