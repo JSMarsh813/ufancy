@@ -16,6 +16,19 @@ const navbarLinks = [
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  // let btn = document.getElementById("toggleMobileNav");
+
+  // document.addEventListener("keypress", (event) => {
+  //   // event.keyCode or event.which  property will have the code of the pressed key
+  //   let keyCode = event.keyCode ? event.keyCode : event.which;
+
+  //   // 13 points the enter key
+  //   if (keyCode === 13) {
+  //     // call click function of the buttonn
+  //     btn.click();
+  //   }
+  // });
+
   return (
     <nav className="w-full h-20 flex flex-col justify-center items-center fixed bg-customDarkBg2  lg:bg-customDarkBgTransparent z-40 lg:backdrop-blur-xl border-b-4 border-b-pink-300">
       <div className="2xl:w-[1280px] xl:w-10/12 w-11/12 flex justify-between items-center relative">
@@ -66,14 +79,16 @@ export const Navbar = () => {
           exit={{ opacity: 0 }}
         ></motion.div>
 
-        <div
+        <button
           className="lg:hidden flex flex-col  px-2 py-3 border-solid border border-gold rounded-md cursor-pointer hover:bg-pink-400 hover:text-black "
+          tabindex="0"
           onClick={() => setIsOpen(!isOpen)}
+          id="toggleMobileNav"
         >
           <div className="w-5 h-0.5 bg-gold mb-1"></div>
           <div className="w-5 h-0.5 bg-gold mb-1"></div>
           <div className="w-5 h-0.5 bg-gold "></div>
-        </div>
+        </button>
       </div>
       {/* Mobile navbar */}
       <AnimatePresence>

@@ -70,7 +70,7 @@ const FAQBox = ({ defaultOpen, title, content }) => {
   const [isOpen, setIsOpen] = useState(defaultOpen);
 
   return (
-    <div
+    <button
       className="pt-2 sm:pt-6 pb-2 px-3 sm:px-8  rounded-3xl bg-customDarkBg3 custom-border-gray-darker mb-4 relative hover:bg-customDarkBg3Hover cursor-pointer"
       onClick={() => setIsOpen(!isOpen)}
     >
@@ -106,6 +106,6 @@ const FAQBox = ({ defaultOpen, title, content }) => {
           ></path>
         </svg>
       </div>
-    </div>
+    </button>
   );
 };
