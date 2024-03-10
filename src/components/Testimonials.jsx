@@ -64,6 +64,7 @@ export const Testimonials = () => (
                   loading="lazy"
                   alt=""
                   width="45px"
+                  height="48px"
                 />
                 <div className="flex flex-col ml-4">
                   <div className="text-customPrimary text-lg font-semibold">
