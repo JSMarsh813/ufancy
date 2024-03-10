@@ -41,14 +41,14 @@ export const Pricing = () => {
           id="pricing"
         />
 
-        <div className="pb-20 pt-12 bg-white  2xl:w-[1150px] lg:w-[1050px]  md:w-4/5 ">
+        <div className="pb-20 pt-12  bg-white mx-auto 2xl:w-[1150px] lg:w-[1050px]  md:w-4/5 ">
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            <div className="container mx-auto px-4">
+            <div className="container mx-auto  w-11/12 ">
               <div className="max-w-2xl mx-auto text-center mb-16">
                 <span className="custom-block-subtitle text-black">
                   Find Your Perfect Fit
@@ -97,40 +97,41 @@ export const Pricing = () => {
                   </li>
                 </ul>
               </div>
-              <div className="flex flex-wrap flex-col lg:flex-row -mx-4 items-center mt-20">
-                <section className="w-[350px] sm:w-[380px] lg:w-1/3 px-4 mb-8 lg:mb-0">
-                  <div className="p-8 bg-customDarkBg2 rounded-3xl">
-                    <h3 className="mb-2 text-xl font-bold font-heading text-gold">
+
+              <div className="flex flex-wrap flex-row justify-center mx-auto items-center mt-20">
+                <section className="w-[135px] md:w-[170px] lg:w-1/3 px-2 mb-8 lg:mb-0">
+                  <div className="p-6 bg-customDarkBg2 rounded-3xl">
+                    <h3 className="mb-2 text-lg font-bold font-heading  text-gold">
                       2 hours
                     </h3>
-                    <div className="flex justify-start items-end">
-                      <div className="text-4xl sm:text-5xl font-bold text-white mt-4 mr-2">
+                    <div className="flex justify-center items-end">
+                      <div className="text-3xl md:text-4xl font-bold text-white mt-4 mr-2">
                         $275
                       </div>
                     </div>
                   </div>
                 </section>
 
-                <section className="w-[350px] sm:w-[380px] lg:w-1/3 px-4 mb-8 lg:mb-0">
-                  <div className="p-8 bg-customDarkBg2  rounded-3xl">
-                    <h3 className="mb-2 text-xl font-bold font-heading  text-gold">
+                <section className="w-[135px] md:w-[170px]  lg:w-1/3 px-2 mb-8 lg:mb-0">
+                  <div className="p-6 bg-customDarkBg2  rounded-3xl">
+                    <h3 className="mb-2 text-lg font-bold font-heading  text-gold">
                       3 hours
                     </h3>
-                    <div className="flex justify-start items-end">
-                      <div className="text-4xl sm:text-5xl font-bold text-white mt-4 mr-2">
+                    <div className="flex  justify-center  items-end">
+                      <div className="text-3xl md:text-4xl font-bold text-white mt-4 mr-2">
                         $325
                       </div>
                     </div>
                   </div>
                 </section>
 
-                <section className="w-[350px] sm:w-[380px] lg:w-1/3 px-4 mb-8 lg:mb-0">
-                  <div className="p-8 bg-customDarkBg2  rounded-3xl">
-                    <h4 className="mb-2 text-xl font-bold font-heading  text-gold">
+                <section className="w-[135px] md:w-[170px] lg:w-1/3 px-2 mb-8 lg:mb-0">
+                  <div className="p-6 bg-customDarkBg2  rounded-3xl">
+                    <h4 className="mb-2 text-lg font-bold font-heading  text-gold">
                       4 hours
                     </h4>
-                    <div className="flex justify-start items-end">
-                      <div className="text-4xl sm:text-5xl font-bold text-white mt-4 mr-2">
+                    <div className="flex  justify-center  items-end">
+                      <div className="text-3xl md:text-4xl font-bold text-white mt-4 mr-2">
                         $375
                       </div>
                     </div>

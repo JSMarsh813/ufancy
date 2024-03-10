@@ -59,6 +59,13 @@ export const Services = () => (
                 <span>something </span>
               </li>
             </ul>
+
+            <a
+              className="custom-button-colored w-64 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0 "
+              href="/services/"
+            >
+              Our Services
+            </a>
           </div>
         </div>
       </div>
