@@ -84,7 +84,7 @@ export const Navbar = () => {
           tabindex="0"
           onClick={() => setIsOpen(!isOpen)}
           id="toggleMobileNav"
-          aria-lable="Toggle Mobile NavBar"
+          aria-label="Toggle Mobile NavBar"
         >
           <div className="w-5 h-0.5 bg-gold mb-1"></div>
           <div className="w-5 h-0.5 bg-gold mb-1"></div>
