@@ -28,7 +28,7 @@ export const Footer = () => {
                 <div className="text-white mr-2 text-6xl">
                   <TailcastLogo fill="rgb(217, 1, 102)" />
                 </div>
-                <div className="text-customPrimary font-['Inter'] font-bold text-xl">
+                <div className="text-customPrimary fancyFont font-bold text-xl">
                   U Fancy
                 </div>
               </div>

@@ -1,10 +1,23 @@
 /* Typography */
 
+@font-face {
+  font-family: "Reey";
+  src: url("/public/fonts/Reey-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.fancyFont {
+  font-family: "Reey";
+}
+
 .custom-block-title {
   @apply text-black text-3xl font-bold tracking-normal;
 }
 .custom-block-big-title {
   @apply text-4xl xl:text-5xl font-bold tracking-normal;
+  font-family: "Reey";
 }
 .custom-block-subtitle {
   @apply text-xs  tracking-wider font-bold uppercase;

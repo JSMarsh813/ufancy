@@ -53,7 +53,11 @@ export const Pricing = () => {
                 <span className="custom-block-subtitle text-black">
                   Find Your Perfect Fit
                 </span>
-                <h2 className="mt-6 mb-6 text-4xl lg:text-5xl font-bold font-heading text-black">
+                <h2
+                  className="mt-6 mb-6 text-4xl lg:text-5xl font-bold custom-block-big-title
+                
+                text-black"
+                >
                   Choose your best plan
                 </h2>
                 <p className="mb-6 text-black">All our plans include:</p>
@@ -139,7 +143,7 @@ export const Pricing = () => {
                 </section>
               </div>
               <div className="text-center mt-10">
-                <span className="block mb-6 text-4xl">
+                <span className="block mb-6 text-4xl custom-block-big-title">
                   Ready to start the party?
                 </span>
                 <a

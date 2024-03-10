@@ -9,7 +9,7 @@ export const Hero = () => {
       className="w-screen  flex justify-center items-center bg-customDarkBg1 mb-[28vw] md:mb-[18vw] lg:mb-[10vw] xl:mb-[13vw] 2xl:mb-60 hero-bg-gradient pb-24 sm:pb-32 md:pb-44 lg:pb-0"
       id="home"
     >
-      <div className="w-full md:w-[800px] xl:w-[900px] flex flex-col justify-center items-center pt-16 md:pt-0 text-center">
+      <div className="w-full md:w-[800px] xl:w-[900px] flex flex-col justify-center items-center pt-16 md:pt-0 text-center ">
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
@@ -21,10 +21,10 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.05 }}
         >
           <div className="text-5xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-black  px-8 sm:px-8 md:px-20 lg:px-4 sm:mt-32 mt-16 ">
-            <span className="">Capture</span>
+            <span className="fancyFont">Capture</span>
           </div>
           <div className="mt-2 sm:mt-2 text-4xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide golden-text-shadow px-8 sm:px-20 md:px-24 lg:px-24">
-            your memories
+            <span className="fancyFont"> your memories</span>
           </div>
         </motion.div>
         <motion.div

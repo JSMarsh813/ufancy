@@ -22,10 +22,10 @@ export const About = () => {
         <div className="flex flex-wrap items-center 2xl:w-[1450px] xl:w-[1300px] w-11/12 mx-auto md:pl-4 xl:pr-16 xl:pl-16">
           <div className="w-full lg:w-1/2 mb-12 lg:mb-0">
             <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
-              <h2 className="mt-24 md:mt-12 mb-8 text-4xl lg:text-5xl text-gold custom-block-big-title">
+              <h2 className="mt-28 md:mt-12 mb-8 text-4xl lg:text-5xl text-gold custom-block-big-title">
                 About Us
               </h2>
-              <p className="mb-10 text-white leading-loose">
+              <p className="mb-10 pt-2 md:pt-6 text-white leading-loose">
                 U fancy has provided quality services to clients by providing
                 them with the professional care they deserve. Get in touch today
                 to learn more about our Photo Booth Rental Services.
