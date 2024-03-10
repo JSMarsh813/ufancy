@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import feature1 from "../assets/images/feature1.jpg";
 import feature2 from "../assets/images/feature2.jpg";
 import feature3 from "../assets/images/feature3.webp";
-import feature4 from "../assets/images/feature4.jpg";
+import feature4 from "../assets/images/feature4.webp";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 import Camera from "../assets/icons/camera";
 
